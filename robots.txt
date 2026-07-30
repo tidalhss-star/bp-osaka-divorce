@@ -2,4 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://mapo-shirts-insider.xyz/sitemap.xml
+Sitemap: https://mapo-shirts-insider.xyz/sitemap-pages.xml
 Sitemap: https://mapo-shirts-insider.xyz/sitemap-index.xml

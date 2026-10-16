@@ -21,7 +21,7 @@ div[data-post-index-navigation="true"] { display:block !important; visibility:vi
 div[data-post-index-navigation="true"] a { display:inline-flex !important; visibility:visible !important; align-items:center; padding:8px 14px; border:1px solid currentColor; border-radius:6px; background:Canvas; color:CanvasText; text-decoration:none; }
 nav.pager, nav.post-pager, nav[data-site-documents="true"] { display:flex !important; visibility:visible !important; flex-wrap:wrap; gap:12px; padding:16px 0; }
 nav.pager a, nav.post-pager a, nav[data-site-documents="true"] a { display:inline-flex !important; visibility:visible !important; align-items:center; padding:6px 10px; color:inherit; }
-:where(article, .content) :where(img[width][height]) { max-width:100%; height:auto; }
+:where(main, article, .content) :where(img), :where(body) > :where(img) { max-width:100%; height:auto; }
 </style>  <meta property="og:title" content="밀키트의 원가 구조와 변화를 통해 보는 진정한 가치">
   <meta property="og:description" content="솔직히 말해볼까요? 여러분이 마트나 편의점에서 덥석 집어 드는 그">
   <meta property="og:type" content="website">
